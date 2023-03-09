@@ -1,0 +1,22 @@
+.header {
+    grid-area: header;
+    background-color: lightgrey;
+    width: 1200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.headerImgDiv {
+    margin-left: 5px;
+    height: 70px;
+    width: 70px;
+}
+.headerImgDiv img {
+    height: 65px;
+    width: 65px;
+}
+
+.headerText {
+    margin-left: 60px;
+    font-size: 26px;
+}
