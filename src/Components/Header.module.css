@@ -5,11 +5,13 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+
 }
 .headerImgDiv {
     margin-left: 5px;
     height: 70px;
     width: 70px;
+
 }
 .headerImgDiv img {
     height: 65px;
