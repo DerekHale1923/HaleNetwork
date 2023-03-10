@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Header.module.css'
-import item from '../img/1627015268_12-p-rozovii-fon-dlya-logotipa-12.png'
+import item from '../../img/1627015268_12-p-rozovii-fon-dlya-logotipa-12.png'
 
 const Header = () => {
     return (

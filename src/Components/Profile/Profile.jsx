@@ -1,7 +1,8 @@
 import React from 'react';
 import style from './Profile.module.css';
-import userBg from '../img/backgroundMainUser.jpg'
-import userAvatar from '../img/userAvatar.jpg'
+import userBg from '../../img/backgroundMainUser.jpg'
+import userAvatar from '../../img/userAvatar.jpg'
+import MyPosts from "./MyPosts/MyPosts";
 
 
 const Profile = () => {
@@ -19,10 +20,7 @@ const Profile = () => {
                     <span>работаю как попало</span>
                 </div>
             </div>
-            <div>MyPosts</div>
-            <div>NewPosts</div>
-            <div>Posts1</div>
-            <div>Posts2</div>
+            <MyPosts/>
         </div>
     );
 };
